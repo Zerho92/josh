@@ -132,7 +132,7 @@ document.getElementById('contact-form')?.addEventListener('submit', async functi
     });
 
     if (response.ok) {
-      window.location.href = '/gracias.html';
+      window.location.href = 'gracias.html';
     } else {
       throw new Error('Error en el servidor');
     }
